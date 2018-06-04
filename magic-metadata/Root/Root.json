@@ -1,0 +1,252 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"Root",
+		"component_path":	"Root/",
+		"component_uniquename":	"Root_Root"
+	},
+	"coordinates":	{
+		"width":	714,
+		"height":	819
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"label1",
+				"text":	"root_v1:",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	13,
+				"width":	41,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"root_v1",
+				"tab_order":	0,
+				"pattern":	"^.{0,5}$",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	53,
+				"y":	13,
+				"width":	41,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button4",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	119,
+				"y":	17,
+				"width":	158,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button5",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	295,
+				"y":	17,
+				"width":	158,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button7",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	479,
+				"y":	17,
+				"width":	158,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button12",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line43"
+			},
+			"coordinates":	{
+				"x":	119,
+				"y":	43,
+				"width":	158,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button13",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line43"
+			},
+			"coordinates":	{
+				"x":	295,
+				"y":	43,
+				"width":	158,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label9",
+				"text":	"Named Router Outlet",
+				"common_line_id":	"line154"
+			},
+			"coordinates":	{
+				"x":	13,
+				"y":	154,
+				"width":	110,
+				"height":	44
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Subform3",
+				"tab_order":	0,
+				"router_outlet":	true,
+				"common_line_id":	"line154"
+			},
+			"coordinates":	{
+				"x":	175,
+				"y":	71,
+				"width":	307,
+				"height":	210
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label10",
+				"text":	"Default Router Outlet",
+				"common_line_id":	"line388"
+			},
+			"coordinates":	{
+				"x":	13,
+				"y":	388,
+				"width":	110,
+				"height":	44
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"RouterOutlet1",
+				"tab_order":	0,
+				"router_outlet":	true,
+				"default_outlet":	true,
+				"common_line_id":	"line388"
+			},
+			"coordinates":	{
+				"x":	175,
+				"y":	305,
+				"width":	307,
+				"height":	210
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label11",
+				"text":	"SubForm",
+				"common_line_id":	"line640"
+			},
+			"coordinates":	{
+				"x":	13,
+				"y":	640,
+				"width":	110,
+				"height":	44
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Subform8",
+				"tab_order":	0,
+				"common_line_id":	"line640"
+			},
+			"coordinates":	{
+				"x":	175,
+				"y":	557,
+				"width":	307,
+				"height":	210
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

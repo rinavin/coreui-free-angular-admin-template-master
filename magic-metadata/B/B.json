@@ -1,0 +1,56 @@
+{
+	"style":	{
+		"color":	11
+	},
+	"props":	{
+		"id":	"B",
+		"component_path":	"B/",
+		"component_uniquename":	"B_B"
+	},
+	"coordinates":	null,
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label2",
+				"text":	"B_v1:",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	13,
+				"width":	30,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"B_v1",
+				"tab_order":	0,
+				"pattern":	"^.{0,10}$",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	42,
+				"y":	13,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		}
+	]
+}

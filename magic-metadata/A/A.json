@@ -1,0 +1,111 @@
+{
+	"style":	{
+		"color":	15
+	},
+	"props":	{
+		"id":	"A",
+		"component_path":	"A/",
+		"component_uniquename":	"A_A"
+	},
+	"coordinates":	null,
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label2",
+				"text":	"A_v1:",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	13,
+				"width":	30,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"A_v1",
+				"tab_order":	0,
+				"pattern":	"^.{0,10}$",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	42,
+				"y":	13,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button4",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	149,
+				"y":	13,
+				"width":	72,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Button6",
+				"tab_order":	0,
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	260,
+				"y":	13,
+				"width":	72,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Subform3",
+				"tab_order":	0,
+				"router_outlet":	true,
+				"default_outlet":	true,
+				"common_line_id":	"line126"
+			},
+			"coordinates":	{
+				"x":	86,
+				"y":	126,
+				"width":	192,
+				"height":	192
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

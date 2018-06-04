@@ -1,0 +1,31 @@
+{
+	"routesArray":	[
+		{
+			"RouteName":	"A",
+			"OutletName":	"",
+			"children":	[
+				{
+					"RouteName":	"SubA1",
+					"OutletName":	"",
+					"children":	null
+				}
+			]
+		},
+		{
+			"RouteName":	"A",
+			"OutletName":	"Subform3",
+			"children":	[
+				{
+					"RouteName":	"SubA1",
+					"OutletName":	"",
+					"children":	null
+				}
+			]
+		},
+		{
+			"RouteName":	"B",
+			"OutletName":	"",
+			"children":	null
+		}
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"SubA1",
+		"component_path":	"A/SubA1/",
+		"component_uniquename":	"A_SubA1_SubA1"
+	},
+	"coordinates":	null,
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label2",
+				"text":	"subA1_v1:",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	13,
+				"width":	53,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"subA1_v1",
+				"tab_order":	0,
+				"pattern":	"^.{0,10}$",
+				"attribute":	"A",
+				"common_line_id":	"line13"
+			},
+			"coordinates":	{
+				"x":	65,
+				"y":	13,
+				"width":	76,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		}
+	]
+}
