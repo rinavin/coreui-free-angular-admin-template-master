@@ -41,10 +41,20 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import {MagicModule} from '@magic-xpa/angular';
 import {MagicGenLibModule} from './magic/magic.gen.lib.module';
+import {routes} from './app.routes';
+import {ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+
+
+    // Magic Modules
+
     AppRoutingModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),

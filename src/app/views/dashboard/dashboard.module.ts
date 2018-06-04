@@ -14,8 +14,8 @@ import {MagicModule} from '@magic-xpa/angular';
     DashboardRoutingModule,
     ChartsModule,
     BsDropdownModule,
-    ButtonsModule.forRoot(),
-    MagicModule.forRoot()
+    MagicModule,
+    ButtonsModule.forRoot()
   ],
   declarations: [ DashboardComponent ]
 })
